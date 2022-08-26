@@ -1,0 +1,199 @@
+.header
+{
+    background-color: #0E0E0E;
+    &__inner
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__logo
+        {
+            display: block;
+            &__link
+            {
+                text-decoration: none;
+            }
+        }
+        &__jpg
+        {
+            display: none;
+        }
+        &__img
+        {
+            display: block;
+            &__link
+            {
+                text-decoration: none;
+            }
+        }
+        &__list
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            padding-top: 35px;
+            padding-bottom: 35px;
+            &__item
+            {
+                margin-left: 34px;
+                
+                
+                &__link
+                {
+                    text-decoration: none;
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 25px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    &:hover
+                {
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 25px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    color: #D87D4A;
+                }
+                }
+            }
+
+        }
+    }
+}
+//=====================Tablet 768==================//
+@media only screen and (max-width: 768px) {
+
+.header
+{
+    max-width: 768px;
+    background: #191919;
+    &__inner
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__logo
+        {
+            margin-left: 42px;
+        }
+        &__div
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__jpg
+        {
+            display: block;
+        }
+        &__img
+        {
+            display: block;
+        }
+        &__list
+        {
+            background-color: #D87D4A;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            padding-top: 35px;
+            padding-bottom: 35px;
+            &__item
+            {
+                display: none;
+                margin-left: 34px;
+                
+                &__link
+                {
+                    text-decoration: none;
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 25px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+            }
+
+        }
+    }
+}
+}
+//===============mobile 375=================//
+@media only screen and (max-width: 375px) {
+
+    .header
+    {
+        max-width: 375px;
+        background: #191919;
+        &__inner
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &__logo
+            {
+                margin-left: 42px;
+            }
+            &__div
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            &__jpg
+            {
+                display: block;
+            }
+            &__img
+            {
+                display: block;
+            }
+            &__list
+            {
+                background-color: #D87D4A;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                padding-top: 35px;
+                padding-bottom: 35px;
+                &__item
+                {
+                    display: none;
+                    margin-left: 34px;
+                    
+                    &__link
+                    {
+                        text-decoration: none;
+                        font-family: 'Manrope';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 13px;
+                        line-height: 25px;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                    }
+                }
+    
+            }
+        }
+    }
+    }
